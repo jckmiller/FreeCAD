@@ -18,6 +18,10 @@ if(BUILD_CLOUD)
     add_subdirectory(Cloud)
 endif(BUILD_CLOUD)
 
+if(BUILD_GUI)
+    add_subdirectory(AIAssistant)
+endif(BUILD_GUI)
+
 if(BUILD_DRAFT)
   add_subdirectory(Draft)
 endif(BUILD_DRAFT)
